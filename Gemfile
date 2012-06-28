@@ -12,6 +12,9 @@ group :development do
 	gem 'guard-rspec', '0.5.5'
 end
 
+gem 'annotate', '~> 2.4.1.beta', group: :development
+
+
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -42,7 +45,7 @@ group :production do
 end
 
 # To use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
+gem 'bcrypt-ruby', '3.0.1'
 
 # To use Jbuilder templates for JSON
 # gem 'jbuilder'
